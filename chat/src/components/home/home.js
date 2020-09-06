@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Row, Col } from 'react-bootstrap'
-import { Route, Redirect, BrowserRouter as Router } from "react-router-dom"
+import { Route, Redirect, HashRouter as Router } from "react-router-dom"
 import ChatService from '../../services/chat-service'
 import SideBar from './sideBar/sideBar'
 import Chat from './chat/chat'
