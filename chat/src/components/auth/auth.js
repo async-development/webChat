@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import AuthService from '../../services/auth-service'
-import logo from '../../assets/logo_with_text.png'
+import logo from '../../assets/psg_logo.png'
 import swal from 'sweetalert'
 import './auth.css'
 import Loader from '../../helpers/loader/loader'
