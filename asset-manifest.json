@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/webChat/chat/static/css/main.0671ad6a.chunk.css",
+    "main.js": "/webChat/chat/static/js/main.9b9faaca.chunk.js",
+    "main.js.map": "/webChat/chat/static/js/main.9b9faaca.chunk.js.map",
+    "runtime-main.js": "/webChat/chat/static/js/runtime-main.aad21d6f.js",
+    "runtime-main.js.map": "/webChat/chat/static/js/runtime-main.aad21d6f.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/webChat/chat/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.21e4ef07.chunk.js": "/webChat/chat/static/js/2.21e4ef07.chunk.js",
+    "static/js/2.21e4ef07.chunk.js.map": "/webChat/chat/static/js/2.21e4ef07.chunk.js.map",
+    "index.html": "/webChat/chat/index.html",
+    "precache-manifest.1298d8d9d43772f3ba3aac095eddaeda.js": "/webChat/chat/precache-manifest.1298d8d9d43772f3ba3aac095eddaeda.js",
+    "service-worker.js": "/webChat/chat/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/webChat/chat/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.0671ad6a.chunk.css.map": "/webChat/chat/static/css/main.0671ad6a.chunk.css.map",
+    "static/js/2.21e4ef07.chunk.js.LICENSE.txt": "/webChat/chat/static/js/2.21e4ef07.chunk.js.LICENSE.txt",
+    "static/media/logo_with_text.png": "/webChat/chat/static/media/logo_with_text.34ab4cf5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aad21d6f.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.21e4ef07.chunk.js",
+    "static/css/main.0671ad6a.chunk.css",
+    "static/js/main.9b9faaca.chunk.js"
+  ]
+}
