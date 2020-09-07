@@ -29,7 +29,7 @@ body{
 }
 
 .auth-wrapper{
-  margin: 20px;
+  margin: 10px;
 }
 .auth-logo{
   display: flex;
@@ -38,14 +38,14 @@ body{
 }
 
 .auth-logo img{
-  width: 200px;
-  height: 125px;
+  width: 220px;
+  height: 180px;
 }
 
 .auth-form{
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .auth-form > input{
@@ -64,19 +64,19 @@ body{
 .auth-form > button{
   padding: 12px;
   margin: 15px 0;
-  border: 1px solid #00e3cf;
+  border: 1px solid  #1877f2;
   transition: all 0.3s;
-  border-radius: 25px;
+  border-radius: 15px;
   font-weight: 600;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 17px;
-  background-color:#00e3cf;
-  color: white;
+  font-family: 'Tahoma';
+  font-size: 22px;
+  background-color:#1877f2;
+  color: whitesmoke;
   outline:none;
 }
 
 .auth-form > button:hover{
-  border: 1px solid #00e3cf;
+  border: 1px solid #1b8b37;
   background-color:white;
   color: black;
   cursor: pointer;
@@ -85,10 +85,10 @@ body{
 
 .auth-footer{
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
-  font-size: 17px;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  font-family: 'Tahoma'
 }
 .auth-footer > span{
   display: block;

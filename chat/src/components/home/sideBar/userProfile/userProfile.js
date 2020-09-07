@@ -54,50 +54,61 @@ class UserProfile extends Component {
 
     const { user } = currentUser
     return (
-      <div className="user-rofile-container">
-        <div className="user-profile-wrapper">
-          <div className="user-profile-user-info">
-            <div className="online">
+      <div className='user-rofile-container'>
+        <div className='user-profile-wrapper'>
+          <div className='user-profile-user-info'>
+            <div className='online'>
               <Avatar photo={user.avatar} name={user.full_name} size={50} />
             </div>
             <span>{user.full_name}</span>
           </div>
-          <div className="user-profile-icon" id="user-profile-icon" onClick={this.showMoreInformation}>
-            {isModal ?
-              <FontAwesomeIcon icon={faChevronUp} color={'white'} /> :
-              <FontAwesomeIcon icon={faChevronDown} color={'#435f7a'} />
-            }
+          <div
+            className='user-profile-icon'
+            id='user-profile-icon'
+            onClick={this.showMoreInformation}
+          >
+            {isModal ? (
+              <FontAwesomeIcon icon={faChevronUp} color={'white'} />
+            ) : (
+              <FontAwesomeIcon icon={faChevronDown} color={'white'} />
+            )}
           </div>
         </div>
-        {isModal &&
+        {isModal && (
           <>
             <Modal
               isOpen={isModal}
               onRequestClose={this.handleCloseModal}
               ariaHideApp={false}
               style={this.customStyles}
-              overlayClassName="Overlay-user-profile"
+              overlayClassName='Overlay-user-profile'
             />
-            <div className="user-profile-modal">
+            <div className='user-profile-modal'>
               <ul>
-                <li className="user-profile-user-more-info">
+                <li className='user-profile-user-more-info'>
                   <Link
-                    to="/auth"
+                    to='/auth'
                     onClick={this.logOut}
-                    className="reset-user-profile">Logout</Link>
+                    className='reset-user-profile'
+                  >
+                    Logout
+                  </Link>
                 </li>
-                <li className="user-profile-user-more-info">
+                <li className='user-profile-user-more-info'>
                   <Link
-                    to="/home"
+                    to='/home'
                     onClick={this.settings}
-                    className="reset-user-profile">Settings</Link>
+                    className='reset-user-profile'
+                  >
+                    Settings
+                  </Link>
                 </li>
               </ul>
             </div>
           </>
-        }
+        )}
       </div>
-    )
+    );
   }
 }
 

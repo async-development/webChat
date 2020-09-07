@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import AuthService from '../../services/auth-service'
-import logo from '../../assets/logo_with_text.png'
+import logo from '../../assets/psg_logo.png'
 import swal from 'sweetalert'
 import './auth.css'
 import Loader from '../../helpers/loader/loader'
@@ -111,10 +111,9 @@ export default class Auth extends Component {
               required
               placeholder="Password"
               name="Password" />
-            <button type="submit" value="Submit">{isLogin ? 'Log in' : 'Sign up'}</button>
+            <button type="submit" value="Submit">{isLogin ? 'Log In' : 'Sign up'}</button>
           </form>
           <div className="auth-footer">
-            <span>{authText}</span>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a onClick={this.handleStateModal}>{authLink}</a>
           </div>
