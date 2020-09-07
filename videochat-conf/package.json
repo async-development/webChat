@@ -9,8 +9,8 @@
     "build-non-minimize": "webpack --env.production --env.non_minimize",
     "watch": "webpack --env.production",
     "start": "node server.js",
-    "postinstall": "npm run build"  
-  }, 
+    "postinstall": "npm run build"
+  },
   "keywords": [
     "webrtc"
   ],
