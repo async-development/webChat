@@ -10,7 +10,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #27ae60;
+  background-color: darkgray;
 }
 
 .home-active-container{
